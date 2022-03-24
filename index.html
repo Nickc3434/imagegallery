@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="icon" href="images/favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Kanye West Image Gallery</title>
+
+	<link rel="stylesheet" href="styles/slicknav.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	
+	<script src="js/jquery.slicknav.min.js"></script>
+	
+	<script type="text/javascript">
+		$(document).ready(function(){
+		$('#nav_menu').slicknav({prependTo:"#mobilemenu"});
+		});
+		</script>
+</head>
+
+<body>
+	<header class="clearfix">
+		
+<img src="#" alt="Return to homepage">
+<h2> Kanye West</h2>
+<h3>Image gallery</h3>
+	</header>
+	
+	<main>
+		
+<!-- Photo Grid -->
+<div class="row"> 
+	<div class="column">
+	  <img src="kanyeimages/download.jpg" >
+	  <img src="kanyeimages/kanye5.jpg" >
+	  <img src="kanyeimages/kanye6.jpg" >
+	  <img src="kanyeimages/kanye7.jpg" >
+	  <img src="kanyeimages/kanye8.jpg" >
+	</div>
+	
+	<div class="column">
+	  <img src="kanyeimages/kanye2.jpg" >
+	  <img src="kanyeimages/kanye9.jpg" >
+	  <img src="kanyeimages/kanye10.jpg" >
+	  <img src="kanyeimages/kanye11.jpg" >
+	  <img src="kanyeimages/kanye12.jpg" >
+	</div> 
+	 
+	<div class="column">
+	  <img src="kanyeimages/kanye3.jpg" >
+	  <img src="kanyeimages/kanye13.jpg" >
+	  <img src="kanyeimages/kanye14.jpg" >
+	  <img src="kanyeimages/kanye15.jpg" >
+	  <img src="kanyeimages/kanye16.jpg" >
+	  
+	</div>
+	
+	<div class="column">
+	  <img src="kanyeimages/kanye4.jpg" >
+	  <img src="kanyeimages/kanye17.jpg" >
+	  <img src="kanyeimages/kanye18.jpg" >
+	  <img src="kanyeimages/kanye19.jpg" >
+	  <img src="kanyeimages/kanye20.jpg" >
+	</div>
+  </div>
+
+
+	</main>
+	<!--Javascript- Get Current Year for the Footer-->
+	<script>
+        window.onload = function() {
+            var d = new Date();
+            document.getElementById("copyright").innerHTML = d.getFullYear();
+        }
+    </script>
+
+
+
+
+	<footer>
+		<p> &copy; <span id ="copyright"></span> Kanye West Image Gallery</p>
+	</footer>
+	
+</body>
+</html>
